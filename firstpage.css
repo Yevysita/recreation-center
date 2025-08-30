@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+margin: 0;
+font-family: "Montserrat", sans-serif;
+background-color: #FFFEEC;
+
+}
+*{
+    text-decoration: none;
+     transition: 0.3s;
+}
+
+.zagolovok {
+    font-size: 22px;
+    color: #2C3E50;
+}
+
+.number {
+    background-color: #A88AED;
+    color: #1B4332;
+    border-radius: 15px;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+nav a {
+    color: #6B4FA3;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+main img {
+    width:100%;
+    margin: 0;
+}
+
+.firsttext {
+    border-radius: 15px;
+    background-color: #CBD83B;
+    color: #1A237E;
+    padding: 20px;
+    text-align: center;
+    width: 1000px;
+    height: 350px;
+    font-size: 22px;
+    line-height: 70px;
+    margin-top: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sosiska {
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/PoleLavender.png");
+}
+
+.secondtext {
+    border-radius: 15px;
+    background-color: #A88AED;
+    color: #14532D;
+    padding: 20px;
+    text-align: center;
+    width: 1000px;
+    height: 350px;
+    font-size: 22px;
+    line-height: 70px;
+    margin-top: 40px;
+}
+
+.elem1 {
+      width: 100px;
+      height: 100px;
+      background-image: url("./images/PoleLavender.png");
+      position:absolute;
+      left:30px;
+      top:30px;
+}
+
+.elem2 {
+      width: 100px;
+      height: 100px;
+      background-image: url("./images/PoleLavender.png");
+      position:absolute;
+      left:60px;
+      top:60px;
+  }
+.elem3 {
+   width: 100px;
+   height: 100px;
+   background-image: url("./images/PoleLavender.png");
+   position:absolute;
+   left:90px;
+   top:90px;
+}
