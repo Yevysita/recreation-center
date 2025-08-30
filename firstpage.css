@@ -90,7 +90,7 @@ main {
 .elem1 {
       width: 100px;
       height: 100px;
-      background-image: url("./images/PoleLavender.png");
+      background-image: url("./images/Altanka.png");
       position:absolute;
       left:30px;
       top:30px;
@@ -99,7 +99,7 @@ main {
 .elem2 {
       width: 100px;
       height: 100px;
-      background-image: url("./images/PoleLavender.png");
+      background-image: url("./images/Ginka.png");
       position:absolute;
       left:60px;
       top:60px;
@@ -107,7 +107,7 @@ main {
 .elem3 {
    width: 100px;
    height: 100px;
-   background-image: url("./images/PoleLavender.png");
+   background-image: url("./images/Buket.png");
    position:absolute;
    left:90px;
    top:90px;
