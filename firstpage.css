@@ -1,69 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-margin: 0;
-font-family: "Montserrat", sans-serif;
-background-color: #FFFEEC;
-
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fffeec;
 }
-*{
-    text-decoration: none;
-     transition: 0.3s;
+* {
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 .zagolovok {
-    font-size: 22px;
-    color: #2C3E50;
+  font-size: 22px;
+  color: #2c3e50;
 }
 
 .number {
-    background-color: #A88AED;
-    color: #1B4332;
-    border-radius: 15px;
+  background-color: #a88aed;
+  color: #1b4332;
+  border-radius: 15px;
 }
 
-nav{
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    width: 600px;
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
 }
 
 nav a {
-    color: #6B4FA3;
-    font-size: 20px;
+  color: #6b4fa3;
+  font-size: 20px;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 main img {
-    width:100%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
 .firsttext {
-    border-radius: 15px;
-    background-color: #CBD83B;
-    color: #1A237E;
-    padding: 20px;
-    text-align: center;
-    width: 1000px;
-    height: 350px;
-    font-size: 22px;
-    line-height: 70px;
-    margin-top: 40px;
+  border-radius: 15px;
+  background-color: #cbd83b;
+  color: #1a237e;
+  padding: 20px;
+  text-align: center;
+  width: 1000px;
+  height: 350px;
+  font-size: 22px;
+  line-height: 70px;
+  margin-top: 40px;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sosiska {
@@ -75,51 +74,62 @@ main {
 }
 
 .secondtext {
-    border-radius: 15px;
-    background-color: #A88AED;
-    color: #14532D;
-    padding: 20px;
-    text-align: center;
-    width: 1000px;
-    height: 350px;
-    font-size: 22px;
-    line-height: 70px;
-    margin-top: 40px;
+  border-radius: 15px;
+  background-color: #a88aed;
+  color: #14532d;
+  padding: 20px;
+  text-align: center;
+  width: 1000px;
+  height: 350px;
+  font-size: 22px;
+  line-height: 70px;
+  margin-top: 40px;
+}
+
+.gallery {
+  position: relative;
+  width: 1000px;
+  height: 350px;
+}
+
+.elem1,
+.elem2,
+.elem3 {
+  width: 450px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  box-shadow: 0px 0px 3px #000000;
 }
 
 .elem1 {
-      width: 100px;
-      height: 100px;
-      background-image: url("./images/Altanka.png");
-      position:absolute;
-      left:30px;
-      top:30px;
+  background-image: url("./images/Altanka.png");
+  position: absolute;
+  left: -20px;
+  top: 0;
 }
 
 .elem2 {
-      width: 100px;
-      height: 100px;
-      background-image: url("./images/Ginka.png");
-      position:absolute;
-      left:60px;
-      top:60px;
-  }
+  background-image: url("./images/Ginka.png");
+  position: absolute;
+  right: -20px;
+  top: 0px;
+}
 .elem3 {
-   width: 100px;
-   height: 100px;
-   background-image: url("./images/Buket.png");
-   position:absolute;
-   left:90px;
-   top:90px;
+  background-image: url("./images/Buket.png");
+  position: absolute;
+  left: 270px;
+  top: 0px;
 }
 
-@keyframes  appear{
-    0% {
-        opacity: 0; 
-        transform: translateY(-30px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
