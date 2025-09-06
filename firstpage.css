@@ -209,9 +209,9 @@ padding: 20px;
 }
 
 .section {
-  display: flex;              /* ставимо блоки поруч */
-  align-items: flex-start;    /* вирівнювання по верхньому краю */
-  gap: 30px;                  /* відстань між текстом і карткою */
+  display: flex;              
+  align-items: flex-start;    
+  gap: 30px;                  
   padding: 20px;
 }
 
@@ -220,7 +220,7 @@ padding: 20px;
 }
 
 .card {
-  width: 280px; /* фіксована ширина картки */
+  width: 280px;
   margin: 30px;
 }
 
@@ -228,6 +228,47 @@ padding: 20px;
 .section {
   flex-direction:column-reverse
 }
+
+/* Ефект для карток */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+/* Ефект для кнопок */
+.btn:hover {
+  transform: scale(1.1);
+  background: #CBD83B; 
+  color: #000;
+}
+
+/* Ефект для елементів галереї */
+.elem1:hover,
+.elem2:hover,
+.elem3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Ефект для заголовка навігації */
+.zagolovok:hover {
+  color: #A88AED;
+  transform: scale(1.05);
+}
+
+/* Ефект для посилання навігації */
+nav a:hover {
+  color: #1B5E20;
+  transform: scale(1.05);
+}
+
+/* Ефект для номера телефону */
+.number:hover {
+  background-color: #6b4fa3;
+  color: white;
+  transform: scale(1.05);
+}
+
 
 
 
