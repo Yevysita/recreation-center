@@ -125,18 +125,20 @@ main {
 
 footer {
     background-color: #F4B6C2;
+    padding: 10px;
 }
 
 .kovbasa {
 text-align:left;
 width: 500px;
+font-size: 30px;
 margin: 20px;
 padding: 20px;
 }
 
 .footerh2 {
     margin: 0;
-    font-size: 40px;
+    font-size: 45px;
     color: #1B5E20;
 
 }
@@ -269,6 +271,15 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+.timer {
+margin: 20px;
+padding: 20px;
+color: indigo;
+}
+
+.rivnist2 {
+  padding-top: 30px;
+}
 
 
 
