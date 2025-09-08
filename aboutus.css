@@ -5,13 +5,14 @@
 }
 
 body {
-    background-color: #FFF8E7; /* молочний фон */
-    color: #333;
+    background-color: #FFFEEC; /* світлий теплий фон */
+    color: #2C2C2C;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
-    background: linear-gradient(135deg, #FFC0CB, #A0522D);
-    color: white;
+    background: linear-gradient(135deg, #A88AED, #CBD83B);
+    color: #FFFEEC;
     padding: 50px 20px;
     text-align: center;
     border-bottom-left-radius: 30px;
@@ -26,7 +27,7 @@ header h1 {
 }
 
 header h1:hover {
-    color: #FFF8E7;
+    color: #D4AC0D;
     transform: scale(1.05);
 }
 
@@ -51,7 +52,7 @@ header p:hover {
     gap: 40px;
     margin-bottom: 60px;
     flex-wrap: wrap;
-    background: #FFE4E1; /* ніжно рожевий фон секції */
+    background: #F5F0FF; /* ніжний лавандовий відтінок */
     padding: 30px;
     border-radius: 20px;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -81,12 +82,12 @@ header p:hover {
 .section-content h2 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: #A0522D; /* коричневий заголовок */
+    color: #A88AED; /* фіолетовий */
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .section-content h2:hover {
-    color: #FFC0CB;
+    color: #D4AC0D;
     transform: scale(1.05);
 }
 
@@ -98,12 +99,12 @@ header p:hover {
 }
 
 .section-content p:hover {
-    color: #A0522D;
+    color: #2C2C2C;
 }
 
 footer {
-    background: #A0522D;
-    color: #FFF8E7;
+    background: #CBD83B;
+    color: #2C2C2C;
     text-align: center;
     padding: 20px;
     border-top-left-radius: 30px;
@@ -112,8 +113,14 @@ footer {
 }
 
 a {
-    align-items: left;
-    color: #FFC0CB;
+    color: #FFFEEC;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #D4AC0D;
 }
 
 @media (max-width: 768px) {
@@ -121,4 +128,5 @@ a {
         flex-direction: column;
     }
 }
+
 
